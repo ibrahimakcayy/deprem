@@ -44,7 +44,7 @@ for i in range(len(a)-2):
     z=z+","+y
 
 z="["+z[1::]+"]"
-f = open("demofile3.json", "w")
+f = open("demo.json", "w")
 f.write(z)
 f.close()
 print("done")
