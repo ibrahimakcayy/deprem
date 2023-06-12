@@ -43,7 +43,7 @@ try:
             "size": {
                 "md": float(a[i][5].replace('-.-', '0')),
                 "ml": float(a[i][6].replace('-.-', '0')),
-                "mw": float(a[i][7].replace('-.-', '0')),
+                "mw": float(a[i][7].replace('-.-', '0'))
                 },
             "location": b[0],
             "attribute":b[1]
